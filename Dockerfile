@@ -1,6 +1,6 @@
 FROM golang:1.6.2
 
-ENV PROJECT_PATH=/go/src/github.com/brocaar/lora-gateway-bridge
+ENV PROJECT_PATH=/go/src/github.com/migiz/lora-gateway-bridge
 ENV PATH=$PATH:$PROJECT_PATH/build
 
 # install tools

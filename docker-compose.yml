@@ -4,12 +4,12 @@ gatewaybridge:
   ports:
     - "1700/udp:1700/udp"
   volumes:
-    - ./:/go/src/github.com/brocaar/lora-gateway-bridge
+    - ./:/go/src/github.com/migiz/lora-gateway-bridge
   links:
     - mosquitto
   environment:
-    - MQTT_SERVER=tcp://mosquitto:1883
-    - TEST_MQTT_SERVER=tcp://mosquitto:1883
+    - MQTT_SERVER=tcp://172.31.0.10:1883
+    - TEST_MQTT_SERVER=tcp://172.31.0.10:1883
 
 mosquitto:
-  image: ansi/mosquitto
+  image: registry.ng.bluemix.net/etteplan/mosquitto

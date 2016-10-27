@@ -9,6 +9,18 @@
 			"revisionTime": "2016-06-01T11:32:10Z"
 		},
 		{
+			"checksumSHA1": "B7XWCQXtbWd2uckDjoZyLMviXFM=",
+			"path": "github.com/brocaar/lora-gateway-bridge/backend/mqttpubsub",
+			"revision": "8f8b664a78b3d6a2fff317f9ab4fc4e2cb5a9005",
+			"revisionTime": "2016-09-27T18:17:10Z"
+		},
+		{
+			"checksumSHA1": "PJfcknghlhMGkFgqZJxCG+ZevNY=",
+			"path": "github.com/brocaar/lora-gateway-bridge/gateway",
+			"revision": "8f8b664a78b3d6a2fff317f9ab4fc4e2cb5a9005",
+			"revisionTime": "2016-09-27T18:17:10Z"
+		},
+		{
 			"checksumSHA1": "rHBPrqOaYAGyF0JupgYmj4643+k=",
 			"path": "github.com/brocaar/loraserver/api/gw",
 			"revision": "b7ac42216a89370da930250f3cce4221937fae61",
@@ -105,5 +117,5 @@
 			"revisionTime": "2016-06-15T20:37:29Z"
 		}
 	],
-	"rootPath": "github.com/brocaar/lora-gateway-bridge"
+	"rootPath": "github.com/migiz/lora-gateway-bridge"
 }
